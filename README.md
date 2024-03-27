@@ -30,10 +30,8 @@ Börsdata API - Pro Key required to run.
 main1 includes only the share overview function.
 main2 is the finished project with the portfolio builder included. 
 
-This can be run in a command prompt or in a jupyter notebook (which i did in the streamlit runner notebook) 
+This can either be run in a command prompt or in a jupyter notebook (which i did in the streamlit runner notebook) 
 
-The playground notebooks is for learning the different libraries and APIs that I used, börsdata quite difficult to nail down. But once you understood how to use requests to get data it became easier. 
+The playground notebooks is for learning the different libraries and APIs that I used, börsdata was quite difficult to nail down at first but once you understood how to use requests to get data you wanted it became much easier thanks to the swagger documentation. 
 
-Translation & Macro .py files are simple mapping tools we used in our enviorment.
-
-And that's more or less it.
+Translation & Macro .py files are simple mapping tools we used in our enviorment. Macro for the flags in the overview section and translation to make the choice of fundamental data more natural in the program.
